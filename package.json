@@ -4,9 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --watch src --exec \"npm run open\"",
+    "open": "live-server src * --wacth .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-serve": "^0.0.0",
+    "live-server": "^1.2.2",
+    "nodemon": "^2.0.22"
+  }
 }
