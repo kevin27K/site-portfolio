@@ -1,0 +1,120 @@
+/*
+@import url(./style-mobile.css);
+
+html {
+	font-size: 16px;
+}
+
+body {
+	background-color: rgb(255, 255, 255);
+}
+
+.header .container {
+	height: 3.7vw;
+}
+
+.header:hover {
+	box-shadow: 2px 2px 10px var(--yellow);
+}
+
+.logo h1 {
+	font-size: calc(1rem + 2.7vw);
+}
+
+.menu-burguer {
+	display: none;
+}
+
+.nav {
+	display: block;
+	font-size: calc(1rem + 0.1vw);
+	width: 50vw;
+}
+
+.nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav li {
+	transition: all 0.3s;
+	padding: 0.8vw;
+	border-radius: 2px;
+	background-image: linear-gradient(to left, #038bcf6e, #dbbe0123);
+}
+
+.nav a {
+	color: var(--pink-light);
+	
+	text-decoration: none;
+	padding: 0.1vw;
+	text-shadow: 0px 2px 7px #00c3ff;
+	font-weight: bolder;
+	transition: all 700ms;
+}
+
+.nav li:hover {
+	background-image: linear-gradient(to left, #2c007d, #442e13);
+	border-radius: 3px;
+}
+
+.nav a:hover {
+	text-decoration: underline;
+	text-shadow: 10px 10px 10px 5px #bd09ff;
+	color: #577e94;
+}
+
+
+
+
+/*
+:root {
+	--primary-color: linear-gradient(to right, #146598, #b00101);
+	--item-nav: linear-gradient(to right, #0b7381, #79195c);
+}
+
+body {
+	background-color: #000504;
+}
+
+.header {
+	background-image: var(--primary-color);
+	color: #fff;
+}
+
+.header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 70px;
+	width: 90%;
+	max-width: 1100px;
+	margin: auto;
+}
+
+.nav ul {
+	display: flex;
+}
+
+.nav ul li {
+	list-style: none;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	color: #f8f9f7;
+	font-size: 1.3125rem;
+	padding: 6px 10px;
+	margin-left: 48px;
+	border-radius: 10px;
+}
+
+.nav ul li a:hover {
+	background-color: #ffffff4b;
+	transition: 0.5s;
+}
+
+@media screen {}
+
+*/
